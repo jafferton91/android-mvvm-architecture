@@ -24,7 +24,10 @@ import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 /**
- * Created by amitshekhar on 08/07/17.
+ * Created on 08/07/17.
+ *
+ * Description:
+ *
  */
 @Entity(tableName = "questions")
 public class Question {

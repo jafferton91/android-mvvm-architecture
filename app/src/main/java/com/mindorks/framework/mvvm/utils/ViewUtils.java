@@ -25,7 +25,10 @@ import android.support.v4.content.ContextCompat;
 import com.mindorks.framework.mvvm.R;
 
 /**
- * Created by amitshekhar on 07/07/17.
+ * Created on 07/07/17.
+ *
+ * Description:
+ *
  */
 
 public final class ViewUtils {

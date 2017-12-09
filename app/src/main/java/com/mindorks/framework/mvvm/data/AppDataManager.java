@@ -50,7 +50,10 @@ import io.reactivex.functions.BiFunction;
 import io.reactivex.functions.Function;
 
 /**
- * Created by amitshekhar on 07/07/17.
+ * Created on 07/07/17.
+ *
+ * Description:
+ *
  */
 @Singleton
 public class AppDataManager implements DataManager {

@@ -21,7 +21,10 @@ import android.util.DisplayMetrics;
 import android.view.WindowManager;
 
 /**
- * Created by amitshekhar on 07/07/17.
+ * Created on 07/07/17.
+ *
+ * Description:
+ *
  */
 
 public final class ScreenUtils {
@@ -34,7 +37,10 @@ public final class ScreenUtils {
         WindowManager windowManager = (WindowManager) context
                 .getSystemService(Context.WINDOW_SERVICE);
         DisplayMetrics dm = new DisplayMetrics();
-        windowManager.getDefaultDisplay().getMetrics(dm);
+
+        if (windowManager != null)
+            windowManager.getDefaultDisplay().getMetrics(dm);
+
         return dm.widthPixels;
     }
 
@@ -42,7 +48,10 @@ public final class ScreenUtils {
         WindowManager windowManager = (WindowManager) context
                 .getSystemService(Context.WINDOW_SERVICE);
         DisplayMetrics dm = new DisplayMetrics();
-        windowManager.getDefaultDisplay().getMetrics(dm);
+
+        if (windowManager != null)
+            windowManager.getDefaultDisplay().getMetrics(dm);
+
         return dm.heightPixels;
     }
 

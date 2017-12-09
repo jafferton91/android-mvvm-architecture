@@ -23,7 +23,10 @@ import android.net.Uri;
 import com.mindorks.framework.mvvm.R;
 
 /**
- * Created by amitshekhar on 07/07/17.
+ * Created on 07/07/17.
+ *
+ * Description:
+ *
  */
 
 public final class AppUtils {

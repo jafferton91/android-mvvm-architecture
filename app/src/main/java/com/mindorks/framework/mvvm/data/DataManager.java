@@ -27,7 +27,10 @@ import io.reactivex.Observable;
 import io.reactivex.Single;
 
 /**
- * Created by amitshekhar on 07/07/17.
+ * Created on 07/07/17.
+ *
+ * Description:
+ *
  */
 
 public interface DataManager extends DbHelper, PreferencesHelper, ApiHelper {

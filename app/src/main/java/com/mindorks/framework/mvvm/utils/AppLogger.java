@@ -21,7 +21,10 @@ import com.mindorks.framework.mvvm.BuildConfig;
 import timber.log.Timber;
 
 /**
- * Created by amitshekhar on 07/07/17.
+ * Created on 07/07/17.
+ *
+ * Description:
+ *
  */
 
 public final class AppLogger {

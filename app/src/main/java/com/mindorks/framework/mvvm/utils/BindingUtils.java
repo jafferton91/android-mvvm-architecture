@@ -34,7 +34,10 @@ import com.mindorks.placeholderview.SwipePlaceHolderView;
 import java.util.ArrayList;
 
 /**
- * Created by amitshekhar on 11/07/17.
+ * Created on 11/07/17.
+ *
+ * Description:
+ *
  */
 
 public final class BindingUtils {

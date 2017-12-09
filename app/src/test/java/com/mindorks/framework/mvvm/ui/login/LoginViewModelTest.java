@@ -36,7 +36,10 @@ import static org.mockito.Mockito.doReturn;
 import static org.mockito.Mockito.verify;
 
 /**
- * Created by amitshekhar on 11/07/17.
+ * Created on 11/07/17.
+ *
+ * Description:
+ *
  */
 @RunWith(MockitoJUnitRunner.class)
 public class LoginViewModelTest {

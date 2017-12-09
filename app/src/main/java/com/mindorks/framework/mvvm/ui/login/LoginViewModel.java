@@ -26,7 +26,10 @@ import com.mindorks.framework.mvvm.utils.rx.SchedulerProvider;
 import io.reactivex.functions.Consumer;
 
 /**
- * Created by amitshekhar on 08/07/17.
+ * Created on 08/07/17.
+ *
+ * Description:
+ *
  */
 
 public class LoginViewModel extends BaseViewModel<LoginNavigator> {
